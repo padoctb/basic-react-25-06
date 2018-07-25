@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import Article from './article'
+import { NavLink } from 'react-router-dom'
 import Loader from './common/loader'
 import accordion from '../decorators/accordion'
 import {
@@ -33,11 +33,9 @@ export class ArticleList extends Component {
   get articles() {
     return this.props.articles.map((article) => (
       <li key={article.id} className="test--article-list__item">
-        <Article
-          article={article}
-          isOpen={this.props.openItemId === article.id}
-          toggleOpen={this.props.toggleOpenItem}
-        />
+        <NavLink to={`/articles/${article.id}`} activeStyle={{ color: 'red' }}>
+          {article.title}
+        </NavLink>
       </li>
     ))
   }
