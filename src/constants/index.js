@@ -1,0 +1,8 @@
+export const LOADING = 'LOADING'
+export const LOADED = 'LOADED'
+export const ERROR = 'ERROR'
+export const LOAD_ARTICLES = 'LOAD_ARTICLES'
+export const LOAD_ARTICLE = 'LOAD_ARTICLE'
+export const DELETE_ARTICLE = 'DELETE_ARTICLE'
+export const LOAD_COMMENTS = 'LOAD_COMMENTS'
+export const ADD_COMMENT = 'ADD_COMMENT'

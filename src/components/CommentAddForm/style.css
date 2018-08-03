@@ -1,0 +1,26 @@
+.comment__form {
+  margin: 15px;
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.comment__input {
+  padding: 10px;
+  margin: 5px;
+  border: 1.5px solid green;
+  border-radius: 10px;
+}
+
+.comment_textarea {
+  width: 300px;
+  min-height: 100px;
+}
+
+.comment__input:focus {
+  outline: none;
+}
+
+.comment__input--no-active {
+  border: 1.5px solid red;
+}

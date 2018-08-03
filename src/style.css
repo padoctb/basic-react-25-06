@@ -1,0 +1,12 @@
+body {
+  background-color: #e3e3e3;
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+}
+
+ul {
+  list-style: none;
+  bottom: 10px;
+  padding: 10px;
+}
